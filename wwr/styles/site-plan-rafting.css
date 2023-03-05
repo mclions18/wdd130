@@ -1,6 +1,4 @@
-@import url('@import url('https://fonts.google.com/specimen/Work+Sans?query=work+sans&category=Serif,Sans+Serif')');
-
-@import url('@import url('https://fonts.google.com/specimen/Patua+One?query=patua&category=Display')');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Work+Sans&display=swap');
 
 :root {
     --primary-color: #022900;
@@ -8,7 +6,7 @@
     --accent1-color: #1C3A13;
     --accent2-color: #EC4E20;
 
-    --heading-font: 'Patua One', display;
+    --heading-font: 'Patua One' serif;
     --paragraph-font: 'Work Sans', sans-serif;
 
     --nav-background-color: #EC4E20;
