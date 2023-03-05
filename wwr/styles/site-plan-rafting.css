@@ -1,0 +1,59 @@
+@import url('@import url('https://fonts.google.com/specimen/Work+Sans?query=work+sans&category=Serif,Sans+Serif')');
+
+@import url('@import url('https://fonts.google.com/specimen/Patua+One?query=patua&category=Display')');
+
+:root {
+    --primary-color: #022900;
+    --secondary-color: #CB3701;
+    --accent1-color: #1C3A13;
+    --accent2-color: #EC4E20;
+
+    --heading-font: 'Patua One', display;
+    --paragraph-font: 'Work Sans', sans-serif;
+
+    --nav-background-color: #EC4E20;
+    --nav-link-color: #022900;
+    --nav-hover-link-color: #CB3701;
+    --nav-hover-background-color: #1C3A13;
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
