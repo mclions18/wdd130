@@ -51,7 +51,7 @@ footer a {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
 }
 
 div article img {
