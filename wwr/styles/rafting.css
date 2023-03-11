@@ -15,19 +15,9 @@
     --nav-hover-background-color: #1C3A13;
 }
 
-body {
-    max-width: 960px;
-    padding: 20px;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-header {
-    padding: 20px;
-    background-color: var(--accent2-color);
 }
 
 p {
@@ -55,3 +45,33 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+
+footer a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+div article img {
+    float: right;
+
+}
+
+article p {
+    color: white;
+    background-color: gray;
+    opacity: 70%;
+    height: 200px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+* {
+    width: 900px;
+    text-align: center;
+}
