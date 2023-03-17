@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Work+Sans&display=swap');
 
+* {
+    width: 900px;
+    text-align: center;
+}
+
 :root {
     --primary-color: #022900;
     --secondary-color: #CB3701;
@@ -82,7 +87,22 @@ img {
     height: 200px;
 }
 
-* {
-    width: 900px;
-    text-align: center;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+header img {
+    grid-column: 1/2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+a {
+    flex: 1 100px;
+    flex-flow: column;
 }
