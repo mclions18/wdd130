@@ -72,14 +72,6 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
   }
 
-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
-}
-
-footer a {
-    text-decoration: none;
-}
 
 .hero {
     position: relative;
@@ -107,6 +99,10 @@ footer a {
 .hero article img {
     float: right;
     width: 200px;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right: 10px;
 }
 
 img {
@@ -124,15 +120,10 @@ nav{
     align-items:center;
 }
 
-a {
-    flex: 1 100px;
-    flex-flow: column;
-}
 
 .img {
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    width: 60px;
+    height: 60px;
 }
 
 .history {
@@ -142,44 +133,18 @@ a {
     flex-flow: row;
 }
 
-.p1 {
-    flex: 2;
+
+footer {
+    display: flex;
 }
 
-.history-title {
-    flex: 1;
+footer p {
+ flex: 10 ;
+ margin-left: 200px;
 }
 
-.p2 {
-    flex: 2;
-}
-
-.section {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-main section img :nth-of-type(1) {
-    grid-row: 2;
-    grid-column: 1/2;
-}
-
-main section img :nth-of-type(1) {
-    grid-row: 2;
-    grid-column: 2/3;
-}
-
-main section img :nth-of-type(1) {
-    grid-row: 2;
-    grid-column: 3/4;
-}
-
-main section img :nth-of-type(1) {
-    grid-row: 2;
-    grid-column: 4/5;
-}
-
-main section img :nth-of-type(1) {
-    grid-row: 2;
-    grid-column: 5/6;
+footer a {
+    text-decoration: none;
+    flex: 0.5;
+    flex-flow: column;
 }
