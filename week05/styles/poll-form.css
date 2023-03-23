@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Patua One';
+    color: navy;
+}
+
+header {
+    margin: 0 auto;
+    width: 500px;
+}
+
+h1 {
+    margin: 1rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: white;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    margin: 5px;
+    border: solid 2px black;
+    padding: 5px;
+}
+
+legend {
+    padding: 10px;
+    color: navy;
+}
+
+label, input, button, select, textarea {
+    font-family: sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 5px; 
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 5px;
+    color: navy;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 500px;
+    text-align: center;
+    color: navy;
+    border-top: solid 1px black;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
