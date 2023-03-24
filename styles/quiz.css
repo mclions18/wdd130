@@ -8,7 +8,7 @@ body {
     padding: 20px;
     margin-top: 20px;
     width: 400px;
-    height: 343px;
+    height: 376px;
     background-color: rgb(237, 235, 235);
     border: solid 4px darkblue;
     border-radius: 10px;
@@ -49,4 +49,9 @@ button {
 
 input, textarea, option, select {
     background-color: white;
+}
+
+h1 {
+    background-color: rgb(237, 235, 235);
+    color: darkblue;
 }
