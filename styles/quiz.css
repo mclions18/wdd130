@@ -1,0 +1,52 @@
+* {
+    width: 400px;
+    background-color: palegoldenrod;
+    margin: auto;
+}
+
+body {
+    padding: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 343px;
+    background-color: rgb(237, 235, 235);
+    border: solid 4px darkblue;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    background-color: rgb(237, 235, 235);
+    width: 400px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    background-color: rgb(237, 235, 235);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    background-color: rgb(237, 235, 235);
+    margin-bottom: 5px;
+}
+
+strong {
+    background-color: rgb(237, 235, 235);
+    color: darkblue;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+}
+
+input, textarea, option, select {
+    background-color: white;
+}
