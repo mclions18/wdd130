@@ -215,3 +215,29 @@ footer a {
 
 /* trips page css */
 
+.figure {
+    width: 280px;
+}
+
+.img_trips {
+    width: 300px;
+    height: 200px;
+    color: white;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.figcaption {
+    color: white;
+    width: 280px;
+}
+
+td {
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+.td_top {
+    background-color: lightskyblue;
+}
